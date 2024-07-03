@@ -20,7 +20,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useState } from "react";
 
-export const identifierSchema = z.object({
+const identifierSchema = z.object({
   identifier: z.string(),
 });
 
